@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amine Everett</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .container {
+            padding: 50px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        p.welcome {
+            font-size: 20px;
+            color: #555;
+        }
+        .links {
+            margin: 30px 0;
+        }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            background-color: #0077cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .links a:hover {
+            background-color: #005fa3;
+        }
+        .about {
+            margin-top: 50px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/1201/1201641.png" alt="Logo">
+    <h1>Amine Everett</h1>
+</header>
+
+<div class="container">
+    <p class="welcome">مرحبا بك عند أمين Everett!</p>
+
+    <div class="links">
+        <h2>Explore My Courses:</h2>
+        <a href="https://your-trading-course-link.com" target="_blank">Trading Courses</a>
+        <a href="https://your-ecommerce-course-link.com" target="_blank">E-commerce Courses</a>
+        <a href="https://your-freelance-course-link.com" target="_blank">Freelancing Courses</a>
+        <a href="https://your-studios-link.com" target="_blank">Studios</a>
+    </div>
+
+    <div class="about">
+        <h2>About Me</h2>
+        <p>My real name is Amine Elmontacer.<br>
+        My goals are: Becoming a successful entrepreneur, mastering trading and e-commerce, and building powerful online studios.</p>
+    </div>
+</div>
+
+</body>
+</html>
